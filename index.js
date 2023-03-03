@@ -8,7 +8,7 @@ import { signUpValidator } from './lib/validation.js';
 
 mongoose
   .connect(
-    'mongodb+srv://admin:11072005Aa@cluster0.smdnxm8.mongodb.net/blog?retryWrites=true&w=majority',
+    'mongodb+srv://@cluster0.smdnxm8.mongodb.net/blog?retryWrites=true&w=majority',
   )
   .then(() => console.log('DB ok'))
   .catch((error) => console.log('DB Error', error));
